@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  line-height: 50px;
+}
+.contents h1 {
+  margin: 10px 0;
+  text-align: center;
+}
+ul {
+  margin-inline: 30px;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.innerul {
+  font-size: 23px;
+  font-weight: 600;
+  list-style-type: disc;
+}
+.display {
+  animation-name: mover;
+  animation-duration: 0.1s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes mover {
+  from {
+    transform: translate(0px, -200px);
+  }
+  to {
+    transform: translate(0px, 100px);
+  }
+}
