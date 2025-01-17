@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navigationbar {
+  margin-inline: auto;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-content: space-around;
+  padding-inline:auto ;
+}
+
+
+.navleft,
+.navright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navleft ul {
+  list-style-type: none;
+}
+
+ul {
+  margin: 0 10px;
+  display: flex;
+}
+.navleft ul li a {
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 20px;
+}
+.navleft ul li a:hover {
+
+  color: rgb(248, 175, 39);
+}
+.content {
+  display: flex;
+  align-items: center;
+  height: 600px;
+  border-radius: 20px;
+  padding: 7px;
+  margin-top: 20px;
+  position: relative;
+  opacity: 0.8;
+  background-image: url("../images/blog.png");
+  background-repeat: no-repeat;
+  background-size: cover ;
+
+
+}
+.content p,h1{
+  z-index: 3;
+  color: black;
+  font-weight: 600;
+}
+.home-articles h1{
+color:black;
+
+}
+
+.linebreak{
+  margin: 20px 0;
+  margin-inline: auto;
+}
+
+.home-articles {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid black;
+  box-shadow: 1px 1px 3px 5px black;
+}
+.home-articles h1{
+  text-align: center;
+}
+.home-article{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 15px;
+  
+}
+.articles{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+}
+.articles:hover{
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+.articleabout a:hover{
+  color: orange;
+}
+.author{
+  margin:4px 0px;
+  font-size: 21px;
+  font-weight: 300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+
+}
+
+.articleabout{
+  font-size: 40px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin:10px 0;
+}
+.articlefact{
+  font-size:22px;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+.foot {
+  background-color: rgb(237, 183, 81);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  flex-direction: column;
+}
+
+
